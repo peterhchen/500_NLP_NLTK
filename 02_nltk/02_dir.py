@@ -1,3 +1,4 @@
 import nltk
-nltk.download()
+
 print ('nltk done')
+print('dir(nltk):', dir(nltk))
