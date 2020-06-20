@@ -1,6 +1,6 @@
 # Count Vectorization
 from sklearn.feature_extraction.text import CountVectorizer
-cv =CountVectorizer()
+cv = CountVectorizer()
 
 corpus = ["This is a sentence is",
 "This is another sentence",
