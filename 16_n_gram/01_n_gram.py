@@ -57,6 +57,8 @@ data_sample = data[0:10]
 cv2 = CountVectorizer(ngram_range=(2, 3))
 X = cv2.fit_transform(data_sample['msg_clean'])
 print('X.shape:', X.shape)
+print('\ncv2.get_feature_names():')
+print(cv2.get_feature_names())
 df = pd.DataFrame (X.toarray(), columns=cv2.get_feature_names())
 print('df.head(10)')
 print(df.head(10))
