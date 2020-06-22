@@ -47,7 +47,7 @@ print("data['msg'] => data['msg'].head()")
 print(data['msg'].head())
 X_tfidf = tfidf.fit_transform(data['msg'])
 
-print('IF-IDF Vectorization => X_tfidf.shape')
+print('TF-IDF Vectorization => X_tfidf.shape')
 print(X_tfidf.shape)
 print('IF-IDF Vectorization => X_tfidf.toarray()')
 print(X_tfidf.toarray())
